@@ -80,14 +80,16 @@ const GeneratedSignature = ({ formData }) => {
 <p style="margin:3px 0;color:#343579;font-size:18px;font-weight:bold;">
 ${name}
 </p>
-
+${fullDesignation ? `<p style="margin:3px 0;">${fullDesignation}</p>` : ""}
+${department ? `<p style="margin:3px 0;">${department}</p>` : ""}
+${institution ? `<p style="margin:3px 0;">${institution}</p>` : ""}
 ${position ? `<p style="margin:3px 0;">${position}</p>` : ""}
 
-${fullDesignation ? `<p style="margin:3px 0;">${fullDesignation}</p>` : ""}
 
-${institution ? `<p style="margin:3px 0;">${institution}</p>` : ""}
 
-${department ? `<p style="margin:3px 0;">${department}</p>` : ""}
+
+
+
 
 <p style="margin:3px 0;"><b>______________________</b></p>
 
