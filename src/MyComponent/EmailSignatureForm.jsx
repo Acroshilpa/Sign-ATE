@@ -180,10 +180,10 @@ const [formData, setFormData] = useState({
             <option value="Chemistry">
      Chemistry 
          </option>
-         <option value="Mathematics ">
+         <option value="Mathematics">
       Mathematics
          </option>
-        <option value="Huminites ">
+        <option value="Huminites">
       Huminities
          </option>    
     </optgroup>
