@@ -174,6 +174,18 @@ const [formData, setFormData] = useState({
       <option value="Faculty of Computer Application (FCA)">
         Faculty of Computer Application (FCA)
       </option>
+         <option value="Physics">
+      Physics 
+      </option> 
+             ption value="Chemistry">
+     Chemistry 
+         </option>
+         <option value="Mathematics ">
+      Mathematics
+         </option>
+        <option value="Huminites ">
+      Huminities
+         </option>    
     </optgroup>
 
     <optgroup label="Acropolis Faculty of Management & Research">
