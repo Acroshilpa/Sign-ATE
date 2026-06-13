@@ -177,7 +177,7 @@ const [formData, setFormData] = useState({
          <option value="Physics">
       Physics 
       </option> 
-             ption value="Chemistry">
+            <option value="Chemistry">
      Chemistry 
          </option>
          <option value="Mathematics ">
